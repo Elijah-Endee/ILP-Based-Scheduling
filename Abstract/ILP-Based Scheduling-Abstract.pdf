@@ -1,0 +1,88 @@
+\documentclass[lettersize,journal]{IEEEtran}
+\usepackage{amsmath,amsfonts}
+\usepackage{algorithmic}
+\usepackage{algorithm}
+\usepackage{array}
+\usepackage[caption=false,font=normalsize,labelfont=sf,textfont=sf]{subfig}
+\usepackage{textcomp}
+\usepackage{stfloats}
+\usepackage{url}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{cite}
+\hyphenation{op-tical net-works semi-conduc-tor IEEE-Xplore}
+% updated with editorial comments 8/9/2021
+
+\begin{document}
+
+\title{ILP (Integer Linear Program) based scheduling}
+
+\author{~\IEEEmembership{OBI NNAMDI ELIJAH}
+           % <-this % stops a space
+	% <-this % stops a space
+\thanks{}}
+
+% The paper headers
+\markboth{HOCHSCHULE HAMM-LIPPSTADT}%
+{Shell \MakeLowercase{\textit{et al.}}: A Sample Article Using IEEEtran.cls for IEEE Journals}
+
+% Remember, if you use this you must call \IEEEpubidadjcol in the second
+% column for its text to clear the IEEEpubid mark.
+
+\maketitle
+
+\begin{abstract}
+This paper seeks to present an overview behind the approach of ILP (Integer Linear Program) based scheduling which typically involves the use of a formal mathematical description for all of the resource and application constraints, e.g., an Integer Linear Programming (ILP) formulation, which can be used by different solvers to compute a feasible schedule. All variables must be set to integers in order to have an optimal solution.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Multi-Core Real-time Scheduling, Real-Time Operating Systems, EDF(Earliest Deadline First)
+\end{IEEEkeywords}
+
+\section{Introduction}
+-------------------------------------------------------------------------
+
+
+\section{brief history of the problem}
+
+-------------------------------------------------------------------------
+
+\section{BODY}
+
+-------------------------------------------------------------------------
+
+\subsection{SUB-SECTIONS}
+
+-------------------------------------------------------------------------
+
+\section{Conclusion}
+
+-------------------------------------------------------------------------
+
+
+\begin{thebibliography}{1}
+\bibliographystyle{IEEEtran}
+
+\bibitem{ref1}
+
+-------------------------------------------------------------------------
+
+\bibitem{ref2}
+
+-------------------------------------------------------------------------
+
+\bibitem{ref3}
+
+-------------------------------------------------------------------------
+
+\end{thebibliography}
+
+
+
+
+
+
+
+
+
+\end{document}
